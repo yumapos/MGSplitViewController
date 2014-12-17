@@ -252,10 +252,6 @@
 	float width = fullSize.width;
 	float height = fullSize.height;
 	
-	if (NO) { // Just for debugging.
-		NSLog(@"Target orientation is %@, dimensions will be %.0f x %.0f", 
-			  [self nameOfInterfaceOrientation:theOrientation], width, height);
-	}
 	
 	// Layout the master, divider and detail views.
 	CGRect newFrame = CGRectMake(0, 0, width, height);
